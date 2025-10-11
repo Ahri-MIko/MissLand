@@ -1,0 +1,822 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f1c1 (b0109b07edb8) revision 11538587'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32483 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Rouge_Like/Puzzle/Puzzlegame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52852
+Successfully changed project path to: D:/Rouge_Like/Puzzle/Puzzlegame
+D:/Rouge_Like/Puzzle/Puzzlegame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16328]  Target information:
+
+Player connection [16328]  * "[IP] 10.98.210.16 [Port] 0 [Flags] 2 [Guid] 3625681580 [EditorId] 3625681580 [Version] 1048832 [Id] WindowsEditor(7,TX-4NKRMF3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16328]  * "[IP] 172.31.48.1 [Port] 0 [Flags] 2 [Guid] 3625681580 [EditorId] 3625681580 [Version] 1048832 [Id] WindowsEditor(7,TX-4NKRMF3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 12.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1c1 (b0109b07edb8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Rouge_Like/Puzzle/Puzzlegame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005687 seconds.
+- Loaded All Assemblies, in  0.386 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.285 seconds
+Domain Reload Profiling: 671ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (286ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.721 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1423ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (702ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 13.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5733 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (3.6 MB). Loaded Objects now: 6159.
+Memory consumption went from 215.1 MB to 211.4 MB.
+Total: 8.250500 ms (FindLiveObjects: 0.684000 ms CreateObjectMapping: 0.716100 ms MarkObjects: 4.810800 ms  DeleteObjects: 2.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1373040.359636 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/H2对话效果图.png
+  artifactKey: Guid(ac9cbcf548aca25409d694042a08c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/H2对话效果图.png using Guid(ac9cbcf548aca25409d694042a08c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea0bbadfb1f59ecac88fb8f71ecde067') in 0.154061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 165.564918 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/介绍.txt
+  artifactKey: Guid(92c0c18e780eac5498f821a325493b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/介绍.txt using Guid(92c0c18e780eac5498f821a325493b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2415213e3899efe7f364b7cb0c7cfe9') in 0.001436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 98.522329 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/H2A效果图.png
+  artifactKey: Guid(01a52a2088af2b2439a5c8af08bcca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/H2A效果图.png using Guid(01a52a2088af2b2439a5c8af08bcca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c9946a81139a90db3b3ed59136b5455') in 0.072193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.693851 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材
+  artifactKey: Guid(91eaae188399f8f468a434c48ddd3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材 using Guid(91eaae188399f8f468a434c48ddd3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf276aa77dc6fca41357dc37f33be8cf') in 0.000487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.812703 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/CIRCLE.png
+  artifactKey: Guid(fd054541029a6ca43869b7b726563753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/CIRCLE.png using Guid(fd054541029a6ca43869b7b726563753) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25230fd94bf6d782c4ccaa8bbb74f707') in 0.009817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004100 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/gear.png
+  artifactKey: Guid(eca17d1c9ec96d84abdfd2f7874123c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/gear.png using Guid(eca17d1c9ec96d84abdfd2f7874123c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cf58f78aa59bd6fb7443e264116d239') in 0.009541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/roomsignBG.png
+  artifactKey: Guid(9a06bc3e934660d449fc94fe29f7d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/roomsignBG.png using Guid(9a06bc3e934660d449fc94fe29f7d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '489169ba2ffcae56fb945c7a2ca2b823') in 0.035416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_03.png
+  artifactKey: Guid(6e70a10415015db46b3f703f37726db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_03.png using Guid(6e70a10415015db46b3f703f37726db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ba9af739062f03e894521982b461a84') in 0.010343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_06.png
+  artifactKey: Guid(44f42cba1cb63c9469ffb1ef5ff99252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_06.png using Guid(44f42cba1cb63c9469ffb1ef5ff99252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70a68281a200c3a5f923642a25bc4839') in 0.008730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001481 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_08.png
+  artifactKey: Guid(b0c6f8d47db2dbf4fa2d852c2f7411c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_08.png using Guid(b0c6f8d47db2dbf4fa2d852c2f7411c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e72ab4dd606a3f09eb3ba2c22204f39') in 0.009890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001503 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_10.png
+  artifactKey: Guid(388ff1fc3e4219b419129a08b971a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_10.png using Guid(388ff1fc3e4219b419129a08b971a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac1f1d005e3ed939049a4f7df8adb5e5') in 0.008966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_11.png
+  artifactKey: Guid(0c1a56cebc1404d4cb1cdb8ea27d5094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_11.png using Guid(0c1a56cebc1404d4cb1cdb8ea27d5094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bb37ac55ed89acaf8fbf1aeacd71fee') in 0.009028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.796669 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/介绍.txt
+  artifactKey: Guid(c79906da9bf2a2e4384ad39bd2e4fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/介绍.txt using Guid(c79906da9bf2a2e4384ad39bd2e4fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df449778cdd49cca37e54b042337b4d1') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 166.237561 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H3/H3效果图介绍.png
+  artifactKey: Guid(9ec1943483131cf4e82e5fc0d04e6342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H3/H3效果图介绍.png using Guid(9ec1943483131cf4e82e5fc0d04e6342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2305cdf7fb6c9b934a83553288c0246') in 0.046292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.333664 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/H4效果图介绍.png
+  artifactKey: Guid(81349be0d0219f7449e2df4649b26258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/H4效果图介绍.png using Guid(81349be0d0219f7449e2df4649b26258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a140da24fa21fbd97c23c0ce3fed032a') in 0.065530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 50.205528 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/介绍.txt
+  artifactKey: Guid(2c925d4801eae3a49ae17f1d17c43640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/介绍.txt using Guid(2c925d4801eae3a49ae17f1d17c43640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd85370ea9a47255ffd9680eb842c8bcd') in 0.001059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1249.172836 seconds.
+  path: Assets/CottonPuzzle4/__MACOSX/CottonPuzzle4/游戏素材
+  artifactKey: Guid(89ed1508a5c691b41be3cd9990df0135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/__MACOSX/CottonPuzzle4/游戏素材 using Guid(89ed1508a5c691b41be3cd9990df0135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '05c30499ba8cb6f482bc8d6013c32e2b') in 0.000819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.714083 seconds.
+  path: Assets/CottonPuzzle4/__MACOSX/CottonPuzzle4/游戏素材/场景素材
+  artifactKey: Guid(1c8599c7ae9df3b42b0ba7110ae16644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/__MACOSX/CottonPuzzle4/游戏素材/场景素材 using Guid(1c8599c7ae9df3b42b0ba7110ae16644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ee1b7730690b24c9287b726c06ec8ec') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.608314 seconds.
+  path: Assets/CottonPuzzle4/__MACOSX/CottonPuzzle4/游戏素材/场景素材/H2A
+  artifactKey: Guid(8fc31be65b5daba42834ad87f7839733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/__MACOSX/CottonPuzzle4/游戏素材/场景素材/H2A using Guid(8fc31be65b5daba42834ad87f7839733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8fcc47749b703e9d88fc9d7079d0d69') in 0.000454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 546.616581 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c5bf968f886ea014d8e409e43623897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c5bf968f886ea014d8e409e43623897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1eaecc1d5de3deca9586bfd1396cf0af') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.580289 seconds.
+  path: Assets/Scripts/Test.cs
+  artifactKey: Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Test.cs using Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbfab07bf2318c494c988711af89d158') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.770810 seconds.
+  path: Assets/Scripts/Test.cs
+  artifactKey: Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Test.cs using Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '21894cc787bf1bc8277695c06ae18c9c') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.485 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 9154ms
+	BeginReloadAssembly (8032ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7828ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (668ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 9.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (3.7 MB). Loaded Objects now: 6180.
+Memory consumption went from 203.5 MB to 199.8 MB.
+Total: 6.699800 ms (FindLiveObjects: 0.549600 ms CreateObjectMapping: 0.527500 ms MarkObjects: 4.270800 ms  DeleteObjects: 1.349100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Test.cs: 8289d0398bd9a051035a87365428a0e7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cad87785f746702e2b4f6866c3aeaa28 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.811850 seconds.
+  path: Assets/Scripts/Test.cs
+  artifactKey: Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Test.cs using Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfbfe43114fda465f7dd5392502beedb') in 0.002656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 68580.981814 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/arrow.png
+  artifactKey: Guid(dca6e59b22ba3cb47b05989158e0c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/arrow.png using Guid(dca6e59b22ba3cb47b05989158e0c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb62cc65a91fd79b8b451b38fa5ecfb3') in 0.102704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 315.881867 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/arrow.png
+  artifactKey: Guid(dca6e59b22ba3cb47b05989158e0c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/arrow.png using Guid(dca6e59b22ba3cb47b05989158e0c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f61df96f864128a1aa45b87ae223b7b6') in 0.016378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 352.744735 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/H1_PhotoGrid.png
+  artifactKey: Guid(d1819c0234e4f2141b5cf3eb6366f781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/H1_PhotoGrid.png using Guid(d1819c0234e4f2141b5cf3eb6366f781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4147c2ac6f375c847b9472ee64db3702') in 0.018225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 385.485192 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/H2_PhotoGrid.png
+  artifactKey: Guid(a3d826bc4909ac1459ceb86af8042f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/H2_PhotoGrid.png using Guid(a3d826bc4909ac1459ceb86af8042f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '851b08e89f90548607f641e9d06259a2') in 0.028824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.945898 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/arrow.png
+  artifactKey: Guid(fc73fe0a01cfb574e93dc079b3e15af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/arrow.png using Guid(fc73fe0a01cfb574e93dc079b3e15af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9887380b3d9596b88cf34fd3dd91abcb') in 0.009587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 89.007912 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/arrowL.png
+  artifactKey: Guid(0d39bb72e8157f14888e2d8985010d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/arrowL.png using Guid(0d39bb72e8157f14888e2d8985010d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8685efba1f09c3ba3cf1cf2bc7e8d4c0') in 0.532674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (3.6 MB). Loaded Objects now: 6185.
+Memory consumption went from 116.5 MB to 112.9 MB.
+Total: 6.983800 ms (FindLiveObjects: 0.445300 ms CreateObjectMapping: 0.470700 ms MarkObjects: 4.435800 ms  DeleteObjects: 1.620300 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Test.cs: 8289d0398bd9a051035a87365428a0e7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cad87785f746702e2b4f6866c3aeaa28 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 806.406313 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e23152e8c7c0ab1f39fed11dcb6a26d3') in 0.223511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.323560 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '426ae3fde8c662b81e8c253950cb7980') in 0.037315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/Test.cs
+  artifactKey: Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Test.cs using Guid(b52542e4e860ac04a90d960c5ff3de5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbb0cbe67fc87a04254a17c1accf7700') in 0.030526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.422925 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2b608ee32a845652538d7ee24cfc8a3') in 0.065208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_06.png
+  artifactKey: Guid(44f42cba1cb63c9469ffb1ef5ff99252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_06.png using Guid(44f42cba1cb63c9469ffb1ef5ff99252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0143774a1946040236b243065f80eab0') in 0.085209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/音乐/PaperWings.mp3
+  artifactKey: Guid(4042ba6a64ed77d43b6d7b46e2dc2ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/音乐/PaperWings.mp3 using Guid(4042ba6a64ed77d43b6d7b46e2dc2ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cd621132d4f6d000f352911fae5b3f2') in 0.054415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/抓着道具的手.png
+  artifactKey: Guid(a5e253a20ec863849ad49cbd515b84e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/抓着道具的手.png using Guid(a5e253a20ec863849ad49cbd515b84e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '248e713e0f49a8961ec6165b8798fac2') in 0.025945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具栏的右箭头按下.png
+  artifactKey: Guid(8d592f3751beb4f49b1480b237d43f0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具栏的右箭头按下.png using Guid(8d592f3751beb4f49b1480b237d43f0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '273aabdc0b46d2808ff76a49a62081e7') in 0.039010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/key_prop.png
+  artifactKey: Guid(ef254b34b5d96b94c8e5ba1024d82175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/key_prop.png using Guid(ef254b34b5d96b94c8e5ba1024d82175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78a2df7044fc8b3bd6851a613df0a894') in 0.018695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/H4效果图介绍.png
+  artifactKey: Guid(81349be0d0219f7449e2df4649b26258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/H4效果图介绍.png using Guid(81349be0d0219f7449e2df4649b26258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1be039e45dc31961f241b5cd3a90e869') in 0.114244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_08.png
+  artifactKey: Guid(b0c6f8d47db2dbf4fa2d852c2f7411c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_08.png using Guid(b0c6f8d47db2dbf4fa2d852c2f7411c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18cb989174be807578b061115edbcbb7') in 0.036248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_02.png
+  artifactKey: Guid(01f6cd8b024ff6042974f564370227a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_02.png using Guid(01f6cd8b024ff6042974f564370227a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb30dad069bc3bc046df18199d4f7345') in 0.070014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具指示文字背景黑快.png
+  artifactKey: Guid(46822a587c9e2314ebe126099cacca05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具指示文字背景黑快.png using Guid(46822a587c9e2314ebe126099cacca05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b0351e2bba35417b0d4f7feae79eb58') in 0.028286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_04.png
+  artifactKey: Guid(9ee7b0432e3aadb49beec53ab7dc76f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_04.png using Guid(9ee7b0432e3aadb49beec53ab7dc76f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c75149067ea649cee5f371627096140') in 0.025100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/gear.png
+  artifactKey: Guid(eca17d1c9ec96d84abdfd2f7874123c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/gear.png using Guid(eca17d1c9ec96d84abdfd2f7874123c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52829f540c4fb9a8300b0a0b49e0ffc3') in 0.038901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/mail_piece.png
+  artifactKey: Guid(0153430f50777154dbacef5c11d307e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/mail_piece.png using Guid(0153430f50777154dbacef5c11d307e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfabc35b14c6559fbb4244f837893d5d') in 0.053109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H3/H3效果图介绍.png
+  artifactKey: Guid(9ec1943483131cf4e82e5fc0d04e6342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H3/H3效果图介绍.png using Guid(9ec1943483131cf4e82e5fc0d04e6342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a499790f207b87b79788459d11407b0c') in 0.063172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_07.png
+  artifactKey: Guid(25b79d4a50af4154d87abbcf68dbc0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_07.png using Guid(25b79d4a50af4154d87abbcf68dbc0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a28d55db65189363e6e22b0f8dcc5945') in 0.058588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_10.png
+  artifactKey: Guid(388ff1fc3e4219b419129a08b971a5fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_10.png using Guid(388ff1fc3e4219b419129a08b971a5fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca0f46752d8d998bfe4cfd030e768ed1') in 0.019749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具栏的左箭头.png
+  artifactKey: Guid(41fc288a91416c545a62bab67922d72a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具栏的左箭头.png using Guid(41fc288a91416c545a62bab67922d72a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0abb34d7c1ed41f54fdfe398baa37ba8') in 0.075032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/menu.png
+  artifactKey: Guid(01cd62458f9f1ae4e8b0ee3719403fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/menu.png using Guid(01cd62458f9f1ae4e8b0ee3719403fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd646b0e8d8acb09fef2c6e360be53995') in 0.026487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具栏的左箭头按下.png
+  artifactKey: Guid(cb2d61a3ecd1aba46a691b2e2a6ef9bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/道具栏的左箭头按下.png using Guid(cb2d61a3ecd1aba46a691b2e2a6ef9bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d19b3d05c91d6c8702c0a8f9f230efe') in 0.028447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/arrow.png
+  artifactKey: Guid(fc73fe0a01cfb574e93dc079b3e15af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/arrow.png using Guid(fc73fe0a01cfb574e93dc079b3e15af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '223e54ec4c7474f2df0cacb324f0f113') in 0.022087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_03.png
+  artifactKey: Guid(6e70a10415015db46b3f703f37726db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_03.png using Guid(6e70a10415015db46b3f703f37726db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb2d08ad4306f63f228fe1e1c465af29') in 0.028519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_05.png
+  artifactKey: Guid(5cf9d5006ba7e14419cf1a7aa19ab4f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2A/游戏素材/SS_05.png using Guid(5cf9d5006ba7e14419cf1a7aa19ab4f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0bfd4d061f3bd8d57d079c5fbabb3de6') in 0.028459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/mailBox_open.png
+  artifactKey: Guid(aaff701bf271fda48b5e5e141d955332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H4/mailBox_open.png using Guid(aaff701bf271fda48b5e5e141d955332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19374e6512f079b8dd61a7a3e28de514') in 0.066392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/UI效果图.png
+  artifactKey: Guid(1c4d3427be97b484b81fd5dd647ff413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/UI/UI效果图.png using Guid(1c4d3427be97b484b81fd5dd647ff413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2140015adddc5a3eccebc0cd693e0f3') in 0.111413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/H2效果图介绍.png
+  artifactKey: Guid(6bebf099782d9564e81bca8e14d140a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H2/H2效果图介绍.png using Guid(6bebf099782d9564e81bca8e14d140a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2634ed0ca265561e41e0d7cc198e52ee') in 0.388590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/H1.png
+  artifactKey: Guid(1676985f7b3d86a44a6e7466fa96eb8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CottonPuzzle4/CottonPuzzle4/游戏素材/场景素材/H1/H1.png using Guid(1676985f7b3d86a44a6e7466fa96eb8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e39c38e00b7cd74cd6bb9877be6a6893') in 0.190512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
